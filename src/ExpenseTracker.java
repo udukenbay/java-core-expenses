@@ -21,7 +21,7 @@ public class ExpenseTracker {
         }
 
         System.out.println("\n=== Expense Report ===");
-        totalExpenses.forEach((user, amount) -> System.out.println(user + " expense: " + amount + " total: " + totalExpenses.get(user) + "₸"));
-        System.out.println("\n Total Expenses: " + totalExpenses.size());
+        totalExpenses.forEach((user, total) -> System.out.println(user + " потратил: " + total + "₸"));
+        System.out.println("\nВсего расходов: " + expenses.size());
     }
 }
